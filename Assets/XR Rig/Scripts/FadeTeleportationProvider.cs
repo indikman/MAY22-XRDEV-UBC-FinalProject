@@ -58,7 +58,7 @@ public class FadeTeleportationProvider : TeleportationProvider
     }
 
 
-    protected virtual void Update()
+    protected override void Update()
     {
         if (!validRequest || !BeginLocomotion())
             return;
