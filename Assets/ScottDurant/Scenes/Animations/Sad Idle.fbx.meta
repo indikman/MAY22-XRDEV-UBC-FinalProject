@@ -6,7 +6,22 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Avatar
+    second: {fileID: 2100000, guid: 99ef811090275b24c9f90b3d0e7e1b42, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Avatar_Diffuse
+    second: {fileID: 2800000, guid: a120f04b4e3691e4c9feabf399a99414, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Avatar_Normal
+    second: {fileID: 2800000, guid: b7cd36634773441479971da3d34d4b86, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
