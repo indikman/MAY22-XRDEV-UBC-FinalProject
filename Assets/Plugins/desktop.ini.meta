@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/desktop.ini.meta
 guid: 9357190dc205a3a4d99f8c845351708b
+========
+guid: 82c4906eb7785f84bac89389e961cb8d
+folderAsset: yes
+>>>>>>>> 3828b2bbc0e0d0c34d63649ead67869c69c62436:Assets/Prefabs.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
