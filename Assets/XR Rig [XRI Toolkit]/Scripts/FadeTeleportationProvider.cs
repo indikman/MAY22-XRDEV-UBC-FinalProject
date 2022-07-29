@@ -7,8 +7,9 @@ using UnityEngine.UI;
 
 public class FadeTeleportationProvider : TeleportationProvider
 {
-    public RawImage faderImage;
-    public float fadeSpeed = 0.01f;
+    [SerializeField] private bool EnableFade = true;
+    [SerializeField] private RawImage faderImage;
+    [SerializeField] private float fadeSpeed = 0.01f;
 
     float timer = 0;
 
@@ -52,7 +53,13 @@ public class FadeTeleportationProvider : TeleportationProvider
 
     public override bool QueueTeleportRequest(TeleportRequest teleportRequest)
     {
-        StartCoroutine(FadeIn(teleportRequest));
+        if(EnableFade)
+            StartCoroutine(FadeIn(teleportRequest));
+        else
+        {
+            currentRequest = teleportRequest;
+            validRequest = true;
+        }
 
         return true;
     }
@@ -92,9 +99,10 @@ public class FadeTeleportationProvider : TeleportationProvider
             xrOrigin.MoveCameraToWorldLocation(cameraDestination);
         }
 
-        // Fade out and endlocomotion
-        StartCoroutine(FadeOut());
-
+        if(EnableFade)
+            StartCoroutine(FadeOut()); // Fade out and endlocomotion
+        else
+            EndLocomotion();
 
         validRequest = false;
     }
