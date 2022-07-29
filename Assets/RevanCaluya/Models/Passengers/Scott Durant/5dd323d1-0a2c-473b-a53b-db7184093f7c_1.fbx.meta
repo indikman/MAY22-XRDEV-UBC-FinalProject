@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 4f5527293fa0d884197eceb6d2085e62
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Avatar
+    second: {fileID: 2100000, guid: c82dbf4176f35634bbb30588c42b1681, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Avatar_Diffuse
+    second: {fileID: 2800000, guid: a900a1581e1252a4693fdbb33e5aa80c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf3D_Avatar_Normal
+    second: {fileID: 2800000, guid: 48111bd3f8653b448a9c8b915c1feb63, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 41799feb9a7079442841489a6e458fb0
+  - c7c953573ab54eb4e8fd1288e2600e57
+  - d6b0e2ef264239e4aa89880e3c971307
+  - 1adddef5257fe2c45ba0d4b6b1ae1f4c
+  - 0137396464a21af42856105d18af2b56
+  - a10b51c7a36cefb489ba423751f9c766
+  - 28939e88e2ec1ee46b64d424f87e7e38
+  - e69463b404d1cb0468907893af0c612d
+  - 4e9e2991e057ebd4a8db05ca75013fd8
+  - 49fb4f51dba34e740ada7e74e4c3903c
+  - f9dbb77dc5977da44ba21e00639f9d8a
+  - 7095b19fad8d21349965f27884b9cdfe
+  - 0a230c146d5e65c4889ae55dd15e0f11
+  - 5c97bf022139dd048894c851e43653d3
+  - f3fc6dac285facd42bd74608ffadb35c
+  - 5fac0b9e0ee902145a5ea1907f8eb625
+  - c0724d82634c6e94ca2aa8ceae3a663f
+  - b6f7b904d4c026a498cb3f27db256b57
+  - 3882957a50dc203459426fb232382216
+  - 15dc6885dc1d5554f8851fc7ec7f9efd
+  - 54b4aec8dc752a143a2f0e7564a003e3
+  - 36b529a7a80bc024aae1ba92441c8875
+  - 5327478772cfbe5438d723203cba8fec
+  - 8e20989bc8c01fc4c83f8c326db6ea6a
+  - 50b6143be888f2b44a4c453d690533a1
+  - 6473a3134deb24846a42d89faf42145f
+  - b2013ba97ac1827458b56e411061f497
+  - 44380cc0ba3a1ed49b557fea84f536ec
+  - bcf006c6cfce84c49bd9e2a82d7818c6
+  - 70ceded01d6b99542b3ead5573e76464
+  - 9e4b196a235a11448b4165f46020e0ab
+  - 514b4661d60e9fc41aea224a02cb33a0
+  - a6f27ca97be6f5a4fb62385d892569f6
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
